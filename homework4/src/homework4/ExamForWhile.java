@@ -5,7 +5,10 @@ public class ExamForWhile {
 
 
 	public static void main(String[] args) {
-				System.out.print("1. 1부터 입력한 수까지 더하기\n"
+				Start();
+	}
+	public static void Start(){
+		System.out.print("1. 1부터 입력한 수까지 더하기\n"
 				+ "2. 최대값/최소값구하기\n"
 				+ "3. 입력받은숫자의 합계와 평균구하기\n"
 				+ "4. 원하는 구구단 출력하기 \n"
@@ -38,7 +41,11 @@ public class ExamForWhile {
 		case 6:
 			System.out.println("Goodbye Thank you !");
 			break;
+		case 7:		// 테스트용
+			MaxAndMin num7 = new MaxAndMin();
+			num7.Maxmin2();
+			break;
 		}
 	}
-
+	
 }
