@@ -9,8 +9,8 @@ public class SumAndAvg {
 		   int count =0; 		// 나누기위해 카운트 갯수 알아내는 녀석
 		   int sum =0; 			// 입력받은걸 계속 더해줄 합계 녀석
 		   while(true){ 
-		      System.out.print("숫자를 입력(Q종료) >> "); // 입력하라 
-		      try{
+		      System.out.print("숫자를 입력(Q종료) >> "); // 입력하라(String)
+		      try{  
 		    	  String su = s.nextLine(); // 문자열로 입력받고 su 에 넣는다
 		    	  count += 1; 				// 카운트 들어감
 		    	  sum += Integer.parseInt(su);  // 문자열 su를 int로 바꾸고 sum에 더한다
